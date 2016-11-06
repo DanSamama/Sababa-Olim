@@ -1,0 +1,152 @@
+.networking{
+    background-image: url("../Images/NetworkingBlue.jpg");
+    background-size: cover;
+    height: 675px;
+}
+
+.pages{
+    font-family: "Calibri";
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.inLineBlock{
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.marginTopPages{
+    margin-top: 20px;
+}
+
+.marginTopIcons{
+    margin-top: 100px;
+}
+
+.marginTopTxt{
+    margin-top: 10px;
+}
+
+.tagLine{
+    height: 140px;
+    width: 515px;
+    border-radius: 2px;
+    font-size: 50px;
+    color: white;
+    font-family: "Arial";
+    border: 1px solid #1dcb8b;
+    border-width: 3px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-top: 10px;
+}
+
+.signUp{
+    text-align: center;
+    height: 35px;
+    width: 110px;
+    background-color: #4e74ff;
+    color: white;
+    font-family: Calibri;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: -20px;
+}
+
+.signUpBtn{
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+.examples{
+    font-family: "Calibri";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.iconHomeSize{
+    width: 50px;
+    height: 50px;
+    margin-left: 285px;
+}
+
+.iconGovtSize{
+    width: 50px;
+    height: 50px;
+    margin-left: 110px;
+}
+
+.iconDollarSize{
+    width: 50px;
+    height: 50px;
+    margin-left: 111px;
+}
+
+.iconPlusSize{
+    width: 50px;
+    height: 50px;
+    margin-left: 111px;
+}
+
+.search{
+    margin-left: 590px;
+    margin-top: 100px;
+}
+
+.searchBtn{
+    margin-left: 345px;
+    z-index: 900;
+    width: 550px;
+    height: 50px;
+    border: 0;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 22px;
+    padding: 0 205px 0 65px;
+    font-weight: 300;
+    margin-top: 100px;
+    /*width: 550px;*/
+    /*height: 50px;*/
+    /*border: 0;*/
+    /*-moz-box-shadow: none;*/
+    /*box-shadow: none;*/
+    /*font-size: 22px;*/
+    /*padding: 0 205px 0 65px;*/
+    /*font-weight: 300;*/
+}
+
+.searchBtnIcon{
+    transform: translateX(1320%);
+    width: 30px;
+    height: 30px;
+    /*margin-left: 590px;*/
+    /*margin-top: 100px;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background-color: white;*/
+}
+
+.goBtn{
+    background-color: #1dcb8b;
+    border: none;
+    border-color: white;
+    height: 49px;
+    width: 60px;
+    margin-left: -4px;
+    color: white;
+    font-size: 25px;
+}
+
+.about{
+    height: 400px;
+    width: 100%;
+    background-color: #4e74ff;
+}
