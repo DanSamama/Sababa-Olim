@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sababa</title>
+	</head>
+	<body>
+		<h1>Sababa</h1>
+		{% if user.is_authenticated %}
+		Vous êtes connecté, {{ user.username }} !
+		<a href="{%url 'logout'%}">Se déconnnecter</a>
+		{% else %}
+		<a href="{%url 'connect'%}">Se connecter</a>
+		<a href="{%url 'register'%}">S'enregistrer</a>
+		{% endif %}
+	</body>
+</html>
